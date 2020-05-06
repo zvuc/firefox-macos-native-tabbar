@@ -1,0 +1,57 @@
+/* ------------------------------------ */
+/* Firefox Translucent Tabbar for macOS */
+/* ------------------------------------ */
+
+:root #TabsToolbar,
+:root #titlebar,
+:root #tabbrowser-tabs {
+   -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+   background-color: transparent !important;
+}
+
+:root:not([lwthemetextcolor="bright"]) #TabsToolbar,
+:root:not([lwthemetextcolor="bright"]) #titlebar,
+:root:not([lwthemetextcolor="bright"]) #tabbrowser-tabs  {
+  color: #000 !important;
+}
+
+:root[lwthemetextcolor="dark"] #TabsToolbar,
+:root[lwthemetextcolor="dark"] #titlebar,
+:root[lwthemetextcolor="dark"] #tabbrowser-tabs {
+   -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+}
+
+:root[lwthemetextcolor="bright"] #TabsToolbar,
+:root[lwthemetextcolor="bright"] #titlebar,
+:root[lwthemetextcolor="bright"] #tabbrowser-tabs {
+   -moz-appearance: -moz-mac-vibrancy-dark !important;
+}
+
+:root:-moz-window-inactive #TabsToolbar,
+:root:-moz-window-inactive #titlebar,
+:root:-moz-window-inactive #tabbrowser-tabs {
+   -moz-appearance: none !important;
+}
+
+:root[lwthemetextcolor="bright"]:-moz-window-inactive {
+  --lwt-accent-color-inactive: rgb(40,40,40) !important;
+}
+
+:root[lwthemetextcolor="dark"] .tabbrowser-tab:not([selected="true"]):hover {
+   background-color: rgba(0,0,0,0.1) !important;
+}
+
+:root:not([lwthemetextcolor="bright"]) .tabbrowser-tab:not([selected="true"]) {
+  color: #000 !important;
+}
+
+:root[lwthemetextcolor="bright"] {
+  --lwt-background-tab-separator-color: rgba(255,255,255,0.5);
+  --lwt-selected-tab-background-color: rgb(55,55,55);
+  --toolbar-bgcolor: rgb(55,55,55) !important;
+  --tabs-border-color: rgba(0,0,0,0.8);
+}
+
+:root[lwthemetextcolor="bright"] .tabbrowser-tab:not([selected="true"]):hover {
+   background-color: rgba(255,255,255,0.1) !important;
+}
