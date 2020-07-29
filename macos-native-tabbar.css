@@ -2,6 +2,10 @@
 /* Firefox Translucent Tabbar for macOS */
 /* ------------------------------------ */
 
+:root {
+  background: transparent !important;
+}
+
 :root #TabsToolbar,
 :root #titlebar,
 :root #tabbrowser-tabs {
