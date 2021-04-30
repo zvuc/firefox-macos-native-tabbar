@@ -2,8 +2,8 @@
 /* Firefox Translucent Tabbar for macOS */
 /* ------------------------------------ */
 
-:root:not(:-moz-window-inactive) {
-  background: transparent !important;
+:root:not(:-moz-window-inactive) #navigator-toolbox {
+  background-color: transparent !important 
 }
 
 :root #TabsToolbar,
@@ -28,7 +28,7 @@
 :root[lwthemetextcolor="bright"] #TabsToolbar,
 :root[lwthemetextcolor="bright"] #titlebar,
 :root[lwthemetextcolor="bright"] #tabbrowser-tabs {
-   -moz-appearance: -moz-mac-vibrancy-dark !important;
+   -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
 }
 
 :root:-moz-window-inactive #TabsToolbar,
