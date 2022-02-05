@@ -1,6 +1,7 @@
-![firefox-macos-translucent-tabbar](https://user-images.githubusercontent.com/2870726/81133786-a505c180-8f8d-11ea-91f2-18e5aaf3e03f.png)
+![Demo@2x](https://user-images.githubusercontent.com/2870726/152635538-87dcfe70-bcf8-421d-92a5-23e68a408db7.png)
 
-# macOS Native-looking Translucent Tabbar for Firefox (88.0+)
+
+# macOS Native-looking Translucent Tabbar for Firefox (96.0+)
 
 Replaces default Firefox black-and-white theme with a more native-looking light/dark compatible translucent tabbar.
 You need to set your theme to "Default" for this tweak to properly work. Works best if you set your system appearance to "Auto" (changing light/dark automatically), then Firefox will follow the OS settings for color scheme.
