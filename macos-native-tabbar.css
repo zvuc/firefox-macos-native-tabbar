@@ -10,6 +10,7 @@
 :root #titlebar,
 :root #tabbrowser-tabs {
    -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+   -moz-appearance: -moz-mac-source-list !important;
    background-color: transparent !important;
 }
 
@@ -29,9 +30,11 @@
 /* FF 100< lwt-default-theme-in-dark-mode="true" */
 :root:not(:-moz-window-inactive [lwt-default-theme-in-dark-mode]) #TabsToolbar {
    -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+   -moz-appearance: -moz-mac-source-list !important;
 }
 :root:not(:-moz-window-inactive)[lwt-default-theme-in-dark-mode] #TabsToolbar {
    -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+   -moz-appearance: -moz-mac-source-list !important;
 }
 
 :root:-moz-window-inactive[lwt-default-theme-in-dark-mode] {
