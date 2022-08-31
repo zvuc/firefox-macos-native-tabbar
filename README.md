@@ -6,6 +6,8 @@
 Replaces default Firefox black-and-white theme with a more native-looking light/dark compatible translucent tabbar.
 You need to set your theme to "Default" for this tweak to properly work. Works best if you set your system appearance to "Auto" (changing light/dark automatically), then Firefox will follow the OS settings for color scheme.
 
+**⚠️ Note: this tweak will only work on macOS versions of Firefox.**
+
 ## How to apply
 
 Please refer to this wonderful guide at [userchrome.org](https://www.userchrome.org/how-create-userchrome-css.html) for how to set up your own `userChrome.css` file to enable customizations for the Firefox UI.
