@@ -2,7 +2,7 @@
 /* Firefox Translucent Tabbar for macOS */
 /* ------------------------------------ */
 
-:root:not(:-moz-lwtheme) {
+:root#main-window {
    background-color: transparent !important;
 }
 
