@@ -2,6 +2,10 @@
 /* Firefox Translucent Tabbar for macOS */
 /* ------------------------------------ */
 
+:root:not(:-moz-lwtheme) {
+   background-color: transparent !important;
+}
+
 :root:not(:-moz-window-inactive) #navigator-toolbox {
   background-color: transparent !important; 
 }
@@ -36,19 +40,6 @@
    -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
    -moz-appearance: -moz-mac-source-list !important;
 }
-
-:root:-moz-window-inactive[lwt-default-theme-in-dark-mode] {
-  --lwt-accent-color-inactive: rgb(40,40,40) !important;
-}
-
-:root:not([lwt-default-theme-in-dark-mode]) .tabbrowser-tab:not([selected="true"]) {
-  color: #000 !important;
-}
-
-:root[lwt-default-theme-in-dark-mode] {
-  --tab-line-color: hsla(280,30%,80%,0.9) !important;
-}
-
 
 /* improve border visiblity for selected tabs */
 .tab-background:is([selected], [multiselected]):-moz-lwtheme {
