@@ -10,11 +10,13 @@
   background-color: transparent !important; 
 }
 
+/* make tabs toolbar translucent */
+/* FF 121 removed support for -moz-mac-source-list - using menupopup instead */
 :root #TabsToolbar,
 :root #titlebar,
 :root #tabbrowser-tabs {
-   -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
-   -moz-appearance: -moz-mac-source-list !important;
+   -moz-default-appearance: menupopup !important;
+   appearance: auto !important;
    background-color: transparent !important;
 }
 
@@ -27,18 +29,6 @@
 :root {
    --toolbarbutton-hover-background: color-mix(in srgb, currentColor 11%, transparent) !important;
    --toolbarbutton-active-background: color-mix(in srgb, currentColor 21%, transparent) !important;
-}
-
-/* make tabs toolbar translucent */
-/* FF 99 > lwthemetextcolor="bright" */
-/* FF 100< lwt-default-theme-in-dark-mode="true" */
-:root:not(:-moz-window-inactive [lwt-default-theme-in-dark-mode]) #TabsToolbar {
-   -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
-   -moz-appearance: -moz-mac-source-list !important;
-}
-:root:not(:-moz-window-inactive)[lwt-default-theme-in-dark-mode] #TabsToolbar {
-   -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
-   -moz-appearance: -moz-mac-source-list !important;
 }
 
 /* improve border visiblity for selected tabs */
