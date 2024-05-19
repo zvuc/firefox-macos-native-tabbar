@@ -11,12 +11,11 @@
 }
 
 /* make tabs toolbar translucent */
-/* FF 121 removed support for -moz-mac-source-list - using menupopup instead */
 :root #TabsToolbar,
 :root #titlebar,
 :root #tabbrowser-tabs {
-   -moz-default-appearance: menupopup !important;
-   appearance: auto !important;
+   -moz-default-appearance: -moz-window-titlebar !important;
+   appearance: -moz-window-titlebar !important;
    background-color: transparent !important;
 }
 
