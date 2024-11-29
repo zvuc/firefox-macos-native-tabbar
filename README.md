@@ -8,6 +8,12 @@ You need to set your theme to "Default" for this tweak to properly work. Works b
 
 **⚠️ Note: this tweak will only work on macOS versions of Firefox.**
 
+## Firefox 133 and newer
+1. Go to `about:config` on your URL bar, search for below two values set them to `true` (double-click the value to change).
+   - `widget.macos.titlebar-blend-mode.behind-window`
+   - `browser.theme.native-theme`
+2. Your Firefox should get translucent bars right away. If not, try restarting the app.
+
 ## Firefox 127 and newer
 Finally this day has come... where you no longer need custom CSS to apply translucent tab bars, as the newest version of Firefox now has a built-in support for macOS native translucent tab bars. You just need to turn the hidden options. Here's how:
 1. Go to `about:config` on your URL bar, search for below two values set them to `true` (double-click the value to change).
